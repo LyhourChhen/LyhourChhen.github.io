@@ -1,2 +1,0 @@
-My name is @LyhourChhen, I am a software-engineer
-who right now working with ReactJS & React-Native ! 
