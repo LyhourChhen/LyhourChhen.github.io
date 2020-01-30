@@ -1,2 +1,2 @@
-### lyhourchhen.github.io built with Hexo
+## lyhourchhen.github.io built with Hexo
 All post is mine !
