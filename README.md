@@ -1,2 +1,1 @@
-## lyhourchhen.github.io built with Hexo
-All post is mine !
+#### All my thoughts is 100% belong to mine :)
