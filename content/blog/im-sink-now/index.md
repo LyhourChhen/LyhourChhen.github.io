@@ -1,7 +1,11 @@
 ---
-title: I am sink Now
+title: Hello World
 date: "2021-03-18"
-description: "I am currently depressed!"
+description: "Hello World"
 ---
 
-> I got problem with time management & procrastination now also i am trouble to solve it too.
+> Hello World
+
+```ts
+console.log("hello world")
+```
