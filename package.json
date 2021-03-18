@@ -4,6 +4,19 @@
   "description": "My personal blogs bootstrap from gatsby",
   "version": "0.1.0",
   "author": "@lyhourchhen",
+
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+
   "dependencies": {
     "gatsby": "^3.0.1",
     "gatsby-plugin-feed": "^3.0.0",
@@ -33,7 +46,7 @@
   "devDependencies": {
     "prettier": "2.2.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "http://lyhourchhen.github.io/blogs",
   "keywords": [
     "gatsby"
   ],
@@ -41,17 +54,6 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "url": "git+https://github.com/lyhourchhen/lyhourchhen.github.io.git"
   }
 }
