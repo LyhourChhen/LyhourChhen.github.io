@@ -4,6 +4,16 @@
   "description": "My personal blogs bootstrap from gatsby",
   "version": "0.1.0",
   "author": "@lyhourchhen",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyhourchhen/lyhourchhen.github.io.git"
+  },
+  "homepage": "http://lyhourchhen.github.io",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
 
   "scripts": {
     "build": "gatsby build",
@@ -45,15 +55,5 @@
   },
   "devDependencies": {
     "prettier": "2.2.1"
-  },
-  "homepage": "http://lyhourchhen.github.io/blogs",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "0BSD",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lyhourchhen/lyhourchhen.github.io.git"
   }
 }
