@@ -4,7 +4,7 @@ module.exports = {
     title: `Lihour's Blog`,
     author: {
       name: `lyhourchhen`,
-      summary: `who lives and works at PhnomPenh. Currently learn a small startup call AsurRaa.`,
+      summary: `who lives and works at PhnomPenh. Currently lead a small tech startup call AsurRaa.`,
     },
     description: `Personal blogs by @lyhourchhen`,
     siteUrl: `https://lyhourchhen.github.io/blogs`,
