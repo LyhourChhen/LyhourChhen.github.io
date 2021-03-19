@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lihour's Blog]]></title><description><![CDATA[Personal blogs by @lyhourchhen]]></description><link>https://lyhourchhen.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 18 Mar 2021 14:23:11 GMT</lastBuildDate><item><title><![CDATA[Hello World]]></title><description><![CDATA[Hello World]]></description><link>https://lyhourchhen.github.io/blogs/im-sink-now/</link><guid isPermaLink="false">https://lyhourchhen.github.io/blogs/im-sink-now/</guid><pubDate>Thu, 18 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
-&lt;p&gt;Hello World&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ts&quot;&gt;&lt;pre class=&quot;language-ts&quot;&gt;&lt;code class=&quot;language-ts&quot;&gt;&lt;span class=&quot;token builtin&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;hello world&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lihour's Blog]]></title><description><![CDATA[Personal blogs by @lyhourchhen]]></description><link>https://lyhourchhen.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 19 Mar 2021 03:39:51 GMT</lastBuildDate><item><title><![CDATA[Alias NPM to yarn]]></title><description><![CDATA[Problem I believe ya all would have the same problem like me who working mostly with JS & TS relate things.
+Ya all would probably choose…]]></description><link>https://lyhourchhen.github.io/blogs/alias-npm-to-yarn/</link><guid isPermaLink="false">https://lyhourchhen.github.io/blogs/alias-npm-to-yarn/</guid><pubDate>Fri, 01 May 2015 22:12:03 GMT</pubDate><content:encoded>&lt;h3&gt;Problem&lt;/h3&gt;
+&lt;p&gt;I believe ya all would have the same problem like me who working mostly with JS &amp;#x26; TS relate things.
+Ya all would probably choose &lt;strong&gt;yarn&lt;/strong&gt; over &lt;strong&gt;NPM&lt;/strong&gt; not because npm is bad but because yarn is better.
+But when search package on npm or google we always need to change from&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm i react //or npm install react&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;to&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;yarn add react&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Probably not the best experiences for us to change when copy those from npm or somewhere else&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;Solution&lt;/h3&gt;
+&lt;p&gt;So i alias things in terminal directly so whenever you hit will redirect to yarn in your terminal.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;npm i react //=&amp;gt; yarn add react&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;How to ?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add this alias syntax to whatever terminal env you using like &lt;strong&gt;bash, zsh, fish…&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;mine using zsh so &lt;code class=&quot;language-text&quot;&gt;.zshrc&lt;/code&gt; would by terminal configuration file.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;sh&quot;&gt;&lt;pre class=&quot;language-sh&quot;&gt;&lt;code class=&quot;language-sh&quot;&gt;# .zshrc
+# Alias npm to yarn
+npm() {
+  GREEN=&amp;quot;\e[32m&amp;quot;
+  RED=&amp;quot;\e[31m&amp;quot;
+  if ! yarn -v yarn &amp;amp;&amp;gt; /dev/null
+    then
+        echo -e &amp;quot;${RED}yarn could not be found, make sure yarn is installed.${ENDCOLOR}&amp;quot;
+        exit
+    else
+        echo -e &amp;quot;${GREEN}using npm to yarn alternative.${ENDCOLOR}&amp;quot;
+  fi
+  local -a args=( )
+  for arg; do
+    [[ $arg = -i ]] || args+=( &amp;quot;$arg&amp;quot; )
+    [[ $arg = -install ]] || args+=( &amp;quot;$arg&amp;quot; )
+  done
+  command yarn add &amp;quot;${args[@]}&amp;quot;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;restart your terminal&lt;/li&gt;
+&lt;li&gt;you will got magic&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
