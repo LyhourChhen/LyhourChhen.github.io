@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lihour's Notes]]></title><description><![CDATA[Personal blogs by @lyhourchhen]]></description><link>https://lyhourchhen.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Mar 2021 14:57:30 GMT</lastBuildDate><item><title><![CDATA[Alias NPM to yarn]]></title><description><![CDATA[Problem I believe ya all would have the same problem like me who working mostly with JS & TS relate things.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lihour's Notes]]></title><description><![CDATA[Personal blogs by @lyhourchhen]]></description><link>https://lyhourchhen.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 20 Mar 2021 15:00:29 GMT</lastBuildDate><item><title><![CDATA[Alias NPM to yarn]]></title><description><![CDATA[Problem I believe ya all would have the same problem like me who working mostly with JS & TS relate things.
 Ya all would probably choose…]]></description><link>https://lyhourchhen.github.io/blogs/alias-npm-to-yarn/</link><guid isPermaLink="false">https://lyhourchhen.github.io/blogs/alias-npm-to-yarn/</guid><pubDate>Fri, 19 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Problem&lt;/h3&gt;
 &lt;p&gt;I believe ya all would have the same problem like me who working mostly with JS &amp;#x26; TS relate things.
 Ya all would probably choose &lt;strong&gt;yarn&lt;/strong&gt; over &lt;strong&gt;NPM&lt;/strong&gt; not because npm is bad but because yarn is better.
@@ -44,7 +44,7 @@ npm() {
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blogs/static/58cd088c2a486fc1646fe82f2222365a/c0255/preview.png&quot;
+    href=&quot;/notes/static/58cd088c2a486fc1646fe82f2222365a/c0255/preview.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -57,11 +57,11 @@ npm() {
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Preview&quot;
         title=&quot;Preview&quot;
-        src=&quot;/blogs/static/58cd088c2a486fc1646fe82f2222365a/f058b/preview.png&quot;
-        srcset=&quot;/blogs/static/58cd088c2a486fc1646fe82f2222365a/c26ae/preview.png 158w,
-/blogs/static/58cd088c2a486fc1646fe82f2222365a/6bdcf/preview.png 315w,
-/blogs/static/58cd088c2a486fc1646fe82f2222365a/f058b/preview.png 630w,
-/blogs/static/58cd088c2a486fc1646fe82f2222365a/c0255/preview.png 920w&quot;
+        src=&quot;/notes/static/58cd088c2a486fc1646fe82f2222365a/f058b/preview.png&quot;
+        srcset=&quot;/notes/static/58cd088c2a486fc1646fe82f2222365a/c26ae/preview.png 158w,
+/notes/static/58cd088c2a486fc1646fe82f2222365a/6bdcf/preview.png 315w,
+/notes/static/58cd088c2a486fc1646fe82f2222365a/f058b/preview.png 630w,
+/notes/static/58cd088c2a486fc1646fe82f2222365a/c0255/preview.png 920w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
