@@ -1,7 +1,7 @@
 {
-  "name": "lyhourchhen-blog",
+  "name": "lyhourchhen-notes",
   "private": true,
-  "description": "My personal blogs bootstrap from gatsby",
+  "description": "My personal notes bootstrap from gatsby",
   "version": "0.1.0",
   "author": "@lyhourchhen",
   "main": "n/a",
